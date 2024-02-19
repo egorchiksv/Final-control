@@ -1,6 +1,6 @@
-﻿string[] array = new string[] {"Hello", "2", "world", ":-)"};
+﻿string[] array = new string[] {"Hello", "2", "world", ":-)"};// Задаем массив
 
-int size (string[] arr)
+int size (string[] arr) // Функция определения размере нового массива
 {
     int s = 0;
     for(int i = 0; i < array.Length; i++)
@@ -10,7 +10,7 @@ int size (string[] arr)
     }
     return s;
 }
-void NewArray(string[] arr)
+void NewArray(string[] arr) // Создаем новый массив и выводим
 {
     string[] NewArr = new string[size(arr)];
     int j = 0;
